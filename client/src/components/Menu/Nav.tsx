@@ -13,7 +13,7 @@ function Nav() {
   ];
 
   return (
-    <header className="bg-black opacity-80 text-white shadow-md fixed top-0 left-0 right-0 z-50">
+    <header className="opacity-80 text-white shadow-md fixed top-8 left-0 right-0 z-50 ml-15 mr-15 backdrop-blur-3xl">
       <div className="container mx-auto flex justify-between items-center p-4">
         <h1 className="text-xl font-bold">
           <Link to="/" className="ml-4">

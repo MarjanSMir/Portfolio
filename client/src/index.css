@@ -1,24 +1,16 @@
 @import "tailwindcss";
 
 @media only screen and (min-width: 500px) and (max-width: 600px) {
-  header {
-    top: 0;
-    margin: 1rem;
-  }
-  .home-bg {
-    background-position: center;
-  }
-  .box {
-    width: 100%;
-    left:0;
-    
-  }
+.home-bg{
+  background-position:center;
+}
   .box > h1 {
     font-size: var(--text-4xl) /* 2.25rem = 36px */;
     line-height: var(
       --tw-leading,
       var(--text-4xl--line-height) /* calc(2.5 / 2.25) ≈ 1.1111 */
     );
+    
   }
   .box > h2 {
     --tw-leading: calc(var(--spacing) * 20) /* 5rem = 80px */;

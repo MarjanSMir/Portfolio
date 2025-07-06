@@ -7,9 +7,9 @@ function Nav() {
   const [isOpen, setIsOpen] = useState(false);
   const navLinks = [
     { name: "Home", path: "http://localhost:5173/" },
-    { name: "About", path: "../../pages/About" },
-    { name: "Projects", path: "../../pages/Projects" },
-    { name: "Contact", path: "../../pages/Contact" },
+    { name: "About", path: "/client/src/pages/About" },
+    { name: "Projects", path: "/client/src/pages/Projects" },
+    { name: "Contact", path: "/client/src/pages/Contact" },
   ];
 
   return (

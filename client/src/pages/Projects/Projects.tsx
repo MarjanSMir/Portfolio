@@ -1,7 +1,17 @@
-function Projects(){
-    return(
-        <div>Projects</div>
-    )
-}
+// pages/ProjectsPage.tsx
+import { useProjects } from "../../hooks/useProjects";
+import Card from "../../components/ProjectCard/ProjectCard";
 
-export default Projects;
+const ProjectsPage = () => {
+  const { projects } = useProjects();
+
+  return (
+    <div>
+      {projects.map((proj) => (
+        <Card key={proj.id} project={proj} />
+      ))}
+    </div>
+  );
+};
+
+export default ProjectsPage;

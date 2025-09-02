@@ -1,16 +1,17 @@
 @import "tailwindcss";
-
-@media only screen and (min-width: 500px) and (max-width: 600px) {
-.home-bg{
-  background-position:center;
+*{
+  font-family: monospace;
 }
+@media only screen and (min-width: 500px) and (max-width: 600px) {
+  .home-bg {
+    background-position: center;
+  }
   .box > h1 {
     font-size: var(--text-4xl) /* 2.25rem = 36px */;
     line-height: var(
       --tw-leading,
       var(--text-4xl--line-height) /* calc(2.5 / 2.25) ≈ 1.1111 */
     );
-    
   }
   .box > h2 {
     --tw-leading: calc(var(--spacing) * 20) /* 5rem = 80px */;
@@ -22,3 +23,4 @@
     );
   }
 }
+

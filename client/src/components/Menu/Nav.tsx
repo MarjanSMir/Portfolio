@@ -15,14 +15,14 @@ function Nav() {
   return (
     <header className="opacity-80 text-white shadow-md fixed top-8 left-0 right-0 z-50 ml-15 mr-15 backdrop-blur-3xl">
       <div className="container mx-auto flex justify-between items-center p-4">
-        <h1 className="text-xl font-bold">
+        <h1 className="text-2xl font-bold">
           <Link to="/" className="ml-4">
             Marjan Sadat Mirmohammad
           </Link>
         </h1>
 
         {/* Desktop nav */}
-        <nav className="hidden md:flex space-x-10 mr-40">
+        <nav className="hidden md:flex space-x-10 mr-40 text-2xl">
           {navLinks.map((link) => (
             <Link
               key={link.name}
@@ -60,7 +60,7 @@ function Nav() {
           <Link
             key={link.name}
             to={link.path}
-            className="block py-2 text-white hover:underline"
+            className="block py-2 text-white hover:underline "
             onClick={() => setIsOpen(false)} // Close menu on click
           >
             {link.name}

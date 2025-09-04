@@ -8,7 +8,7 @@ function Nav() {
   const navLinks = [
     { name: "Home", path: "http://localhost:5173/" },
     { name: "About", path: "/client/src/pages/About" },
-    { name: "Projects", path: "/client/src/pages/Projects" },
+    { name: "Skills", path: "/client/src/pages/Projects" },
     { name: "Contact", path: "/client/src/pages/Contact" },
   ];
 
